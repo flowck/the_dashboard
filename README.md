@@ -1,6 +1,6 @@
 # The Dashboard
 
-A base template for building internal web application dashboards powered by React.js and Next.js.
+A base template for building internal web application dashboards powered by React.js, Next.js and MSW.js for API-mocking.
 
 ## Getting Started
 
