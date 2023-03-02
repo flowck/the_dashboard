@@ -33,6 +33,7 @@ const AvatarRoot = styled(AvatarPrimitive.Root, {
       small: {
         width: 24,
         height: 24,
+        fontSize: "$1",
       },
       medium: {
         width: 32,

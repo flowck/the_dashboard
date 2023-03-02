@@ -1,5 +1,4 @@
 import { PlusIcon } from "@radix-ui/react-icons";
-import { signUp } from "api";
 import { Box } from "components/Box/Box";
 import { Button } from "components/Button/Button";
 import { Card } from "components/Card/Card";
@@ -39,32 +38,7 @@ const Home: NextPage = () => {
         </Modal>
       </Box>
       <Card css={{ margin: "$4 0" }}>
-        <TextField
-          size="1"
-          css={{ width: "100%" }}
-          placeholder="Search name or domain"
-        />
-      </Card>
-
-      <Card>
-        <Button
-          variant="primary"
-          onClick={() => {
-            signUp({
-              body: {
-                firstName: "",
-                lastName: "",
-                email: "",
-                password: "",
-                companyName: "",
-              },
-            })
-              .then(() => {})
-              .catch((err) => console.error(err));
-          }}
-        >
-          Sign up
-        </Button>
+        <TextField size="1" css={{ width: "100%" }} placeholder="Search name or domain" />
       </Card>
     </Dashboard>
   );

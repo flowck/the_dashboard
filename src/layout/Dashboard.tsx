@@ -22,7 +22,7 @@ export function Dashboard({ children }: Props) {
       <ContentArea>
         <Header>
           <Box css={{ display: "flex", width: "100%", justifyContent: "flex-end" }}>
-            <Avatar src="" initials="FC" size="medium" />
+            <Avatar src="" initials="F" size="small" />
           </Box>
         </Header>
         <Content>{children}</Content>
